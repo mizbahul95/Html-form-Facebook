@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_section{
+
+background: #f0f2f5;
+}
+.facebook_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+min-height: 100vh;
+
+align-items: center;
+}
+.left_content{
+
+width: 50%;
+}
+.facebook{
+
+}
+.facebook img{
+
+width: 270px;
+}
+.facebook h1{
+
+font-size: 26px;
+
+line-height: 32px;
+
+margin-left: 14px;
+
+font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+/* margin-top: -12px; */
+
+font-weight: 400;
+}
+.right_content{
+
+width: 45%;
+
+margin-top: 100px;
+}
+.form_content{
+
+height: 350px;
+
+background: #fff;
+
+border-radius: 9px;
+
+width: 394px;
+
+margin-left: 36px;
+
+margin-top: -45px;
+
+box-shadow: 0px 0px 12px #b5b5b3;
+
+position: relative;
+}
+form{
+
+height: 100%;
+
+width: 100%;
+
+display: flex;
+
+position: absolute;
+
+align-items: center;
+
+
+flex-direction: column;
+
+align-content: center;
+}
+
+form input{
+    
+padding: 14px 16px;
+    
+font-size: 17px;
+    
+border-radius: 5px;
+    
+border: none;
+    
+border: 1px #DDDFE2 solid;
+    
+outline: none;
+}
+form input#email{
+
+margin-top: 20px;
+
+width: 320px;
+}
+form input#password{
+
+width: 320px;
+}
+form input#login{
+
+width: 350px;
+
+color: #fff;
+
+font-size: 20px;
+
+line-height: 18px;
+
+font-weight: 600;
+
+background: #166FE5;
+
+cursor: pointer;
+}
+form a{
+
+text-decoration: none;
+
+/* width: 83%; */
+
+font-size: 15px;
+
+cursor: pointer;
+
+border-bottom: 1px solid #DADDE1;
+
+padding-bottom: 20px;
+
+width: 83%;
+
+text-align: center;
+
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+color: #1877f2;
+}
+.btn{
+
+width: 196px;
+
+margin-top: 5px;
+
+background: #42b72a;
+
+color: #fff;
+
+font-weight: bold;
+
+cursor: pointer;
+}
+.right_content p{
+
+margin-top: 20px;
+
+font-size: 13px;
+
+text-align: center;
+
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.right_content p a{
+
+text-decoration: none;
+
+color: black;
+
+padding-right: 5px;
+
+font-weight: bold;
+}
+
+
+
+.ForPas:hover{
+    text-decoration: underline;
+
+}
+
+.page:hover{
+text-decoration: underline;
+}
+
+
